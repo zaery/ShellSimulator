@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Drawables</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderable.cpp">
+      <Filter>Drawables</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="GLWidget.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsEngine.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsComponent.cpp">
+      <Filter>General\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PointCloud.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExportHeader.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>Drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTypeDefs.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GLWidget.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponent.h">
+      <Filter>General\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaState.h">
+      <Filter>LUA</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEngine.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsComponent.h">
+      <Filter>General\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PointCloud.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{63964d1e-4c85-4156-ba00-f1c10cce59c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drawables">
+      <UniqueIdentifier>{e2097a45-b0e2-4199-b2ff-bdb4f87f8348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{ab9d64d3-c4da-45ee-9daf-172067c10b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Components">
+      <UniqueIdentifier>{5b19423f-b89a-4cce-8a0b-25ae58a471e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LUA">
+      <UniqueIdentifier>{6cc4acf4-b8a7-41e2-bce4-09f5c4fc64fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{396437db-91e2-4fd9-9aa8-2732dbd62315}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

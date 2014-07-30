@@ -1,0 +1,647 @@
+﻿Build started 7/30/2014 11:00:24 AM.
+     1>Project "D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Engine\Engine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\Capstone\firstclean - Copy\ShellSimulator\ShellSimulator\..\ExternalDependencies\glm" /I"D:\Capstone\firstclean - Copy\ShellSimulator\ShellSimulator\..\ExternalDependencies\Qt\include" /I"D:\Capstone\firstclean - Copy\ShellSimulator\ShellSimulator\..\ExternalDependencies\glew\include" /I"D:\Capstone\firstclean - Copy\ShellSimulator\ShellSimulator\..\ExternalDependencies" /I"D:\Capstone\firstclean - Copy\ShellSimulator\ShellSimulator\..\ExternalDependencies\NeumontTools\include" /I"D:\Capstone\firstclean - Copy\ShellSimulator\ShellSimulator\..\ExternalDependencies\lua" /I"C:\Program Files (x86)\AMD APP SDK\2.9\\include" /Zi /nologo /W4 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D ENGINE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp GameObject.cpp Geometry.cpp GLWidget.cpp PhysicsComponent.cpp PhysicsEngine.cpp PointCloud.cpp Renderable.cpp Renderer.cpp
+         Camera.cpp
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(224) : see reference to class template instantiation 'glm::detail::tvec2<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(249) : see reference to class template instantiation 'glm::detail::tvec3<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(305) : see reference to class template instantiation 'glm::detail::tvec4<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Camera.h(10): warning C4251: 'Camera::up' : struct 'glm::detail::tvec3<T>' needs to have dll-interface to be used by clients of class 'Camera'
+                 with
+                 [
+                     T=glm::mediump_float
+                 ]
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Camera.h(17): warning C4251: 'Camera::lookDir' : struct 'glm::detail::tvec3<T>' needs to have dll-interface to be used by clients of class 'Camera'
+                 with
+                 [
+                     T=glm::mediump_float
+                 ]
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Camera.h(18): warning C4251: 'Camera::position' : struct 'glm::detail::tvec3<T>' needs to have dll-interface to be used by clients of class 'Camera'
+                 with
+                 [
+                     T=glm::mediump_float
+                 ]
+         GameObject.cpp
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(224) : see reference to class template instantiation 'glm::detail::tvec2<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(249) : see reference to class template instantiation 'glm::detail::tvec3<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(305) : see reference to class template instantiation 'glm::detail::tvec4<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Renderable.h(29): warning C4251: 'Renderable::where' : struct 'glm::detail::tmat4x4<T>' needs to have dll-interface to be used by clients of class 'Renderable'
+                 with
+                 [
+                     T=glm::lowp_float
+                 ]
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Camera.h(10): warning C4251: 'Camera::up' : struct 'glm::detail::tvec3<T>' needs to have dll-interface to be used by clients of class 'Camera'
+                 with
+                 [
+                     T=glm::mediump_float
+                 ]
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Camera.h(17): warning C4251: 'Camera::lookDir' : struct 'glm::detail::tvec3<T>' needs to have dll-interface to be used by clients of class 'Camera'
+                 with
+                 [
+                     T=glm::mediump_float
+                 ]
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Camera.h(18): warning C4251: 'Camera::position' : struct 'glm::detail::tvec3<T>' needs to have dll-interface to be used by clients of class 'Camera'
+                 with
+                 [
+                     T=glm::mediump_float
+                 ]
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Renderer.h(14): warning C4251: 'Renderer::timer' : class 'Timer' needs to have dll-interface to be used by clients of class 'Renderer'
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Timer.h(6) : see declaration of 'Timer'
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\GameObject.h(11): warning C4251: 'GameObject::position' : struct 'glm::detail::tvec3<T>' needs to have dll-interface to be used by clients of class 'GameObject'
+                 with
+                 [
+                     T=glm::mediump_float
+                 ]
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\GameObject.h(15): warning C4251: 'GameObject::components' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GameObject'
+                 with
+                 [
+                     _Ty=GameComponent *
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qhash.h(71): warning C4127: conditional expression is constant
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qhash.h(80): warning C4127: conditional expression is constant
+     1>GameObject.cpp(15): warning C4018: '<' : signed/unsigned mismatch
+         Geometry.cpp
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(224) : see reference to class template instantiation 'glm::detail::tvec2<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(249) : see reference to class template instantiation 'glm::detail::tvec3<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(305) : see reference to class template instantiation 'glm::detail::tvec4<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\NeumontTools\include\Vertex.h(12): warning C4251: 'Neumont::Vertex::position' : struct 'glm::detail::tvec3<T>' needs to have dll-interface to be used by clients of struct 'Neumont::Vertex'
+                 with
+                 [
+                     T=glm::mediump_float
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\NeumontTools\include\Vertex.h(13): warning C4251: 'Neumont::Vertex::color' : struct 'glm::detail::tvec4<T>' needs to have dll-interface to be used by clients of struct 'Neumont::Vertex'
+                 with
+                 [
+                     T=glm::mediump_float
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\NeumontTools\include\Vertex.h(14): warning C4251: 'Neumont::Vertex::normal' : struct 'glm::detail::tvec3<T>' needs to have dll-interface to be used by clients of struct 'Neumont::Vertex'
+                 with
+                 [
+                     T=glm::mediump_float
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\NeumontTools\include\Vertex.h(15): warning C4251: 'Neumont::Vertex::uv' : struct 'glm::detail::tvec2<T>' needs to have dll-interface to be used by clients of struct 'Neumont::Vertex'
+                 with
+                 [
+                     T=glm::mediump_float
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\NeumontTools\include\Vertex.h(17): warning C4251: 'Neumont::Vertex::weights' : struct 'glm::detail::tvec3<T>' needs to have dll-interface to be used by clients of struct 'Neumont::Vertex'
+                 with
+                 [
+                     T=glm::mediump_float
+                 ]
+         GLWidget.cpp
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(224) : see reference to class template instantiation 'glm::detail::tvec2<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(249) : see reference to class template instantiation 'glm::detail::tvec3<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(305) : see reference to class template instantiation 'glm::detail::tvec4<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(6887): warning C4512: 'cl::EnqueueArgs' : assignment operator could not be generated
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(6713) : see declaration of 'cl::EnqueueArgs'
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qhash.h(71): warning C4127: conditional expression is constant
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qhash.h(80): warning C4127: conditional expression is constant
+     1>GLWidget.cpp(35): warning C4018: '<' : signed/unsigned mismatch
+     1>GLWidget.cpp(48): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(518): warning C4127: conditional expression is constant
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(508) : while compiling class template member function 'void QList<T>::append(const T &)'
+                 with
+                 [
+                     T=QString
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qstringlist.h(70) : see reference to function template instantiation 'void QList<T>::append(const T &)' being compiled
+                 with
+                 [
+                     T=QString
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qstringlist.h(67) : see reference to class template instantiation 'QList<T>' being compiled
+                 with
+                 [
+                     T=QString
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1514): warning C4510: 'cl::detail::GetInfoFunctor0<Func,Arg0>' : default constructor could not be generated
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_platform_id,cl_platform_info,size_t,void *,size_t *),
+                     Arg0=_cl_platform_id *
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1529) : see reference to class template instantiation 'cl::detail::GetInfoFunctor0<Func,Arg0>' being compiled
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_platform_id,cl_platform_info,size_t,void *,size_t *),
+                     Arg0=_cl_platform_id *
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(2092) : see reference to function template instantiation 'cl_int cl::detail::getInfo<cl_int(__stdcall *)(cl_platform_id,cl_platform_info,size_t,void *,size_t *),_cl_platform_id*,cl::STRING_CLASS>(Func,const Arg0 &,cl_uint,T *)' being compiled
+                 with
+                 [
+                     Func=cl_int (__stdcall *)(cl_platform_id,cl_platform_info,size_t,void *,size_t *),
+                     Arg0=_cl_platform_id *,
+                     T=cl::STRING_CLASS
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1514): warning C4512: 'cl::detail::GetInfoFunctor0<Func,Arg0>' : assignment operator could not be generated
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_platform_id,cl_platform_info,size_t,void *,size_t *),
+                     Arg0=_cl_platform_id *
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1514): warning C4610: struct 'cl::detail::GetInfoFunctor0<Func,Arg0>' can never be instantiated - user defined constructor required
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_platform_id,cl_platform_info,size_t,void *,size_t *),
+                     Arg0=_cl_platform_id *
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(372): warning C4127: conditional expression is constant
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(371) : while compiling class template member function 'void QList<T>::node_construct(QList<T>::Node *,const T &)'
+                 with
+                 [
+                     T=QString
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(512) : see reference to function template instantiation 'void QList<T>::node_construct(QList<T>::Node *,const T &)' being compiled
+                 with
+                 [
+                     T=QString
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(730) : while compiling class template member function 'QList<T>::~QList(void)'
+                 with
+                 [
+                     T=QString
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qstringlist.h(69) : see reference to function template instantiation 'QList<T>::~QList(void)' being compiled
+                 with
+                 [
+                     T=QString
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(373): warning C4127: conditional expression is constant
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(388): warning C4127: conditional expression is constant
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(387) : while compiling class template member function 'void QList<T>::node_destruct(QList<T>::Node *)'
+                 with
+                 [
+                     T=QString
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(532) : see reference to function template instantiation 'void QList<T>::node_destruct(QList<T>::Node *)' being compiled
+                 with
+                 [
+                     T=QString
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(389): warning C4127: conditional expression is constant
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(396): warning C4127: conditional expression is constant
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(394) : while compiling class template member function 'void QList<T>::node_copy(QList<T>::Node *,QList<T>::Node *,QList<T>::Node *)'
+                 with
+                 [
+                     T=QString
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(829) : see reference to function template instantiation 'void QList<T>::node_copy(QList<T>::Node *,QList<T>::Node *,QList<T>::Node *)' being compiled
+                 with
+                 [
+                     T=QString
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(409): warning C4127: conditional expression is constant
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qvector.h(480): warning C4127: conditional expression is constant
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qvector.h(473) : while compiling class template member function 'void QVector<T>::realloc(int,int)'
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qvector.h(337) : see reference to function template instantiation 'void QVector<T>::realloc(int,int)' being compiled
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qvector.h(351) : while compiling class template member function 'const QPainterPath::Element &QVector<T>::at(int) const'
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtGui/qpainterpath.h(406) : see reference to function template instantiation 'const QPainterPath::Element &QVector<T>::at(int) const' being compiled
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtGui/qpainterpath.h(254) : see reference to class template instantiation 'QVector<T>' being compiled
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qvector.h(493): warning C4127: conditional expression is constant
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qvector.h(495): warning C4127: conditional expression is constant
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qvector.h(499): warning C4127: conditional expression is constant
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qvector.h(500): warning C4127: conditional expression is constant
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qvector.h(510): warning C4127: conditional expression is constant
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qvector.h(525): warning C4127: conditional expression is constant
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1514): warning C4510: 'cl::detail::GetInfoFunctor0<Func,Arg0>' : default constructor could not be generated
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_program,cl_program_info,size_t,void *,size_t *),
+                     Arg0=_cl_program *
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1529) : see reference to class template instantiation 'cl::detail::GetInfoFunctor0<Func,Arg0>' being compiled
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_program,cl_program_info,size_t,void *,size_t *),
+                     Arg0=_cl_program *
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(4922) : see reference to function template instantiation 'cl_int cl::detail::getInfo<cl_int(__stdcall *)(cl_program,cl_program_info,size_t,void *,size_t *),_cl_program*,T>(Func,const Arg0 &,cl_uint,T *)' being compiled
+                 with
+                 [
+                     T=std::vector<char *>,
+                     Func=cl_int (__stdcall *)(cl_program,cl_program_info,size_t,void *,size_t *),
+                     Arg0=_cl_program *
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(5066) : see reference to function template instantiation 'cl_int cl::Program::getInfo<std::vector<_Ty>>(cl_program_info,T *) const' being compiled
+                 with
+                 [
+                     _Ty=char *,
+                     T=std::vector<char *>
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1514): warning C4512: 'cl::detail::GetInfoFunctor0<Func,Arg0>' : assignment operator could not be generated
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_program,cl_program_info,size_t,void *,size_t *),
+                     Arg0=_cl_program *
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1514): warning C4610: struct 'cl::detail::GetInfoFunctor0<Func,Arg0>' can never be instantiated - user defined constructor required
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_program,cl_program_info,size_t,void *,size_t *),
+                     Arg0=_cl_program *
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1514): warning C4510: 'cl::detail::GetInfoFunctor0<Func,Arg0>' : default constructor could not be generated
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_context,cl_context_info,size_t,void *,size_t *),
+                     Arg0=_cl_context *
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1529) : see reference to class template instantiation 'cl::detail::GetInfoFunctor0<Func,Arg0>' being compiled
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_context,cl_context_info,size_t,void *,size_t *),
+                     Arg0=_cl_context *
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(2602) : see reference to function template instantiation 'cl_int cl::detail::getInfo<cl_int(__stdcall *)(cl_context,cl_context_info,size_t,void *,size_t *),_cl_context*,T>(Func,const Arg0 &,cl_uint,T *)' being compiled
+                 with
+                 [
+                     T=std::vector<cl::Device>,
+                     Func=cl_int (__stdcall *)(cl_context,cl_context_info,size_t,void *,size_t *),
+                     Arg0=_cl_context *
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(5132) : see reference to function template instantiation 'cl_int cl::Context::getInfo<std::vector<_Ty>>(cl_context_info,T *) const' being compiled
+                 with
+                 [
+                     _Ty=cl::Device,
+                     T=std::vector<cl::Device>
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1514): warning C4512: 'cl::detail::GetInfoFunctor0<Func,Arg0>' : assignment operator could not be generated
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_context,cl_context_info,size_t,void *,size_t *),
+                     Arg0=_cl_context *
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1514): warning C4610: struct 'cl::detail::GetInfoFunctor0<Func,Arg0>' can never be instantiated - user defined constructor required
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_context,cl_context_info,size_t,void *,size_t *),
+                     Arg0=_cl_context *
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(430): warning C4127: conditional expression is constant
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(429) : while compiling class template member function 'void QList<T>::node_destruct(QList<T>::Node *,QList<T>::Node *)'
+                 with
+                 [
+                     T=QString
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(693) : see reference to function template instantiation 'void QList<T>::node_destruct(QList<T>::Node *,QList<T>::Node *)' being compiled
+                 with
+                 [
+                     T=QString
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(438) : while compiling class template member function 'QList<T> &QList<T>::operator =(const QList<T> &)'
+                 with
+                 [
+                     T=QString
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(822) : see reference to function template instantiation 'QList<T> &QList<T>::operator =(const QList<T> &)' being compiled
+                 with
+                 [
+                     T=QString
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qlist.h(432): warning C4127: conditional expression is constant
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qvector.h(406): warning C4127: conditional expression is constant
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qvector.h(404) : while compiling class template member function 'QVectorData *QVector<T>::malloc(int)'
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qvector.h(494) : see reference to function template instantiation 'QVectorData *QVector<T>::malloc(int)' being compiled
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qvector.h(473) : while compiling class template member function 'void QVector<T>::realloc(int,int)'
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qvector.h(337) : see reference to function template instantiation 'void QVector<T>::realloc(int,int)' being compiled
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qvector.h(460): warning C4127: conditional expression is constant
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qvector.h(459) : while compiling class template member function 'void QVector<T>::free(QVectorTypedData<T> *)'
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qvector.h(541) : see reference to function template instantiation 'void QVector<T>::free(QVectorTypedData<T> *)' being compiled
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+         PhysicsComponent.cpp
+     1>PhysicsComponent.cpp(3): warning C4100: 'deltaT' : unreferenced formal parameter
+         PhysicsEngine.cpp
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(224) : see reference to class template instantiation 'glm::detail::tvec2<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(249) : see reference to class template instantiation 'glm::detail::tvec3<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(305) : see reference to class template instantiation 'glm::detail::tvec4<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Renderable.h(29): warning C4251: 'Renderable::where' : struct 'glm::detail::tmat4x4<T>' needs to have dll-interface to be used by clients of class 'Renderable'
+                 with
+                 [
+                     T=glm::lowp_float
+                 ]
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Camera.h(10): warning C4251: 'Camera::up' : struct 'glm::detail::tvec3<T>' needs to have dll-interface to be used by clients of class 'Camera'
+                 with
+                 [
+                     T=glm::mediump_float
+                 ]
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Camera.h(17): warning C4251: 'Camera::lookDir' : struct 'glm::detail::tvec3<T>' needs to have dll-interface to be used by clients of class 'Camera'
+                 with
+                 [
+                     T=glm::mediump_float
+                 ]
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Camera.h(18): warning C4251: 'Camera::position' : struct 'glm::detail::tvec3<T>' needs to have dll-interface to be used by clients of class 'Camera'
+                 with
+                 [
+                     T=glm::mediump_float
+                 ]
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Renderer.h(14): warning C4251: 'Renderer::timer' : class 'Timer' needs to have dll-interface to be used by clients of class 'Renderer'
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Timer.h(6) : see declaration of 'Timer'
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\GameObject.h(11): warning C4251: 'GameObject::position' : struct 'glm::detail::tvec3<T>' needs to have dll-interface to be used by clients of class 'GameObject'
+                 with
+                 [
+                     T=glm::mediump_float
+                 ]
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\GameObject.h(15): warning C4251: 'GameObject::components' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GameObject'
+                 with
+                 [
+                     _Ty=GameComponent *
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(6887): warning C4512: 'cl::EnqueueArgs' : assignment operator could not be generated
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(6713) : see declaration of 'cl::EnqueueArgs'
+     1>PhysicsEngine.cpp(8): warning C4068: unknown pragma
+     1>PhysicsEngine.cpp(51): warning C4996: 'clGetExtensionFunctionAddress': was declared deprecated
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.h(1207) : see declaration of 'clGetExtensionFunctionAddress'
+     1>PhysicsEngine.cpp(128): warning C4100: 'deltaT' : unreferenced formal parameter
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1514): warning C4510: 'cl::detail::GetInfoFunctor0<Func,Arg0>' : default constructor could not be generated
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_platform_id,cl_platform_info,size_t,void *,size_t *),
+                     Arg0=_cl_platform_id *
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1529) : see reference to class template instantiation 'cl::detail::GetInfoFunctor0<Func,Arg0>' being compiled
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_platform_id,cl_platform_info,size_t,void *,size_t *),
+                     Arg0=_cl_platform_id *
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(2092) : see reference to function template instantiation 'cl_int cl::detail::getInfo<cl_int(__stdcall *)(cl_platform_id,cl_platform_info,size_t,void *,size_t *),_cl_platform_id*,cl::STRING_CLASS>(Func,const Arg0 &,cl_uint,T *)' being compiled
+                 with
+                 [
+                     Func=cl_int (__stdcall *)(cl_platform_id,cl_platform_info,size_t,void *,size_t *),
+                     Arg0=_cl_platform_id *,
+                     T=cl::STRING_CLASS
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1514): warning C4512: 'cl::detail::GetInfoFunctor0<Func,Arg0>' : assignment operator could not be generated
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_platform_id,cl_platform_info,size_t,void *,size_t *),
+                     Arg0=_cl_platform_id *
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1514): warning C4610: struct 'cl::detail::GetInfoFunctor0<Func,Arg0>' can never be instantiated - user defined constructor required
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_platform_id,cl_platform_info,size_t,void *,size_t *),
+                     Arg0=_cl_platform_id *
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1514): warning C4510: 'cl::detail::GetInfoFunctor0<Func,Arg0>' : default constructor could not be generated
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_program,cl_program_info,size_t,void *,size_t *),
+                     Arg0=_cl_program *
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1529) : see reference to class template instantiation 'cl::detail::GetInfoFunctor0<Func,Arg0>' being compiled
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_program,cl_program_info,size_t,void *,size_t *),
+                     Arg0=_cl_program *
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(4922) : see reference to function template instantiation 'cl_int cl::detail::getInfo<cl_int(__stdcall *)(cl_program,cl_program_info,size_t,void *,size_t *),_cl_program*,T>(Func,const Arg0 &,cl_uint,T *)' being compiled
+                 with
+                 [
+                     T=std::vector<char *>,
+                     Func=cl_int (__stdcall *)(cl_program,cl_program_info,size_t,void *,size_t *),
+                     Arg0=_cl_program *
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(5066) : see reference to function template instantiation 'cl_int cl::Program::getInfo<std::vector<_Ty>>(cl_program_info,T *) const' being compiled
+                 with
+                 [
+                     _Ty=char *,
+                     T=std::vector<char *>
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1514): warning C4512: 'cl::detail::GetInfoFunctor0<Func,Arg0>' : assignment operator could not be generated
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_program,cl_program_info,size_t,void *,size_t *),
+                     Arg0=_cl_program *
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1514): warning C4610: struct 'cl::detail::GetInfoFunctor0<Func,Arg0>' can never be instantiated - user defined constructor required
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_program,cl_program_info,size_t,void *,size_t *),
+                     Arg0=_cl_program *
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1514): warning C4510: 'cl::detail::GetInfoFunctor0<Func,Arg0>' : default constructor could not be generated
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_context,cl_context_info,size_t,void *,size_t *),
+                     Arg0=_cl_context *
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1529) : see reference to class template instantiation 'cl::detail::GetInfoFunctor0<Func,Arg0>' being compiled
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_context,cl_context_info,size_t,void *,size_t *),
+                     Arg0=_cl_context *
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(2602) : see reference to function template instantiation 'cl_int cl::detail::getInfo<cl_int(__stdcall *)(cl_context,cl_context_info,size_t,void *,size_t *),_cl_context*,T>(Func,const Arg0 &,cl_uint,T *)' being compiled
+                 with
+                 [
+                     T=std::vector<cl::Device>,
+                     Func=cl_int (__stdcall *)(cl_context,cl_context_info,size_t,void *,size_t *),
+                     Arg0=_cl_context *
+                 ]
+                 D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(5132) : see reference to function template instantiation 'cl_int cl::Context::getInfo<std::vector<_Ty>>(cl_context_info,T *) const' being compiled
+                 with
+                 [
+                     _Ty=cl::Device,
+                     T=std::vector<cl::Device>
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1514): warning C4512: 'cl::detail::GetInfoFunctor0<Func,Arg0>' : assignment operator could not be generated
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_context,cl_context_info,size_t,void *,size_t *),
+                     Arg0=_cl_context *
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\CL\cl.hpp(1514): warning C4610: struct 'cl::detail::GetInfoFunctor0<Func,Arg0>' can never be instantiated - user defined constructor required
+                 with
+                 [
+                     Func=int (__stdcall *)(cl_context,cl_context_info,size_t,void *,size_t *),
+                     Arg0=_cl_context *
+                 ]
+         PointCloud.cpp
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(224) : see reference to class template instantiation 'glm::detail::tvec2<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(249) : see reference to class template instantiation 'glm::detail::tvec3<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(305) : see reference to class template instantiation 'glm::detail::tvec4<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>PointCloud.cpp(17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>PointCloud.cpp(24): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : see declaration of 'fscanf'
+     1>PointCloud.cpp(25): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : see declaration of 'fscanf'
+     1>PointCloud.cpp(26): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : see declaration of 'fscanf'
+         Renderable.cpp
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(224) : see reference to class template instantiation 'glm::detail::tvec2<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(249) : see reference to class template instantiation 'glm::detail::tvec3<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(305) : see reference to class template instantiation 'glm::detail::tvec4<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Renderable.h(29): warning C4251: 'Renderable::where' : struct 'glm::detail::tmat4x4<T>' needs to have dll-interface to be used by clients of class 'Renderable'
+                 with
+                 [
+                     T=glm::lowp_float
+                 ]
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qhash.h(71): warning C4127: conditional expression is constant
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qhash.h(80): warning C4127: conditional expression is constant
+         Renderer.cpp
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(224) : see reference to class template instantiation 'glm::detail::tvec2<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec2.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(249) : see reference to class template instantiation 'glm::detail::tvec3<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec3.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(79): warning C4201: nonstandard extension used : nameless struct/union
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(305) : see reference to class template instantiation 'glm::detail::tvec4<T>' being compiled
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(80): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\glm\glm\core\type_vec4.hpp(81): warning C4201: nonstandard extension used : nameless struct/union
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Camera.h(10): warning C4251: 'Camera::up' : struct 'glm::detail::tvec3<T>' needs to have dll-interface to be used by clients of class 'Camera'
+                 with
+                 [
+                     T=glm::mediump_float
+                 ]
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Camera.h(17): warning C4251: 'Camera::lookDir' : struct 'glm::detail::tvec3<T>' needs to have dll-interface to be used by clients of class 'Camera'
+                 with
+                 [
+                     T=glm::mediump_float
+                 ]
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Camera.h(18): warning C4251: 'Camera::position' : struct 'glm::detail::tvec3<T>' needs to have dll-interface to be used by clients of class 'Camera'
+                 with
+                 [
+                     T=glm::mediump_float
+                 ]
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Renderable.h(29): warning C4251: 'Renderable::where' : struct 'glm::detail::tmat4x4<T>' needs to have dll-interface to be used by clients of class 'Renderable'
+                 with
+                 [
+                     T=glm::lowp_float
+                 ]
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Renderer.h(14): warning C4251: 'Renderer::timer' : class 'Timer' needs to have dll-interface to be used by clients of class 'Renderer'
+                 d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\Timer.h(6) : see declaration of 'Timer'
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qhash.h(71): warning C4127: conditional expression is constant
+     1>D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Qt\include\QtCore/qhash.h(80): warning C4127: conditional expression is constant
+     1>Renderer.cpp(121): warning C4189: 'rend' : local variable is initialized but not referenced
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Capstone\firstclean - Copy\ShellSimulator\ShellSimulator\Release\Engine.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\Capstone\firstclean - Copy\ShellSimulator\ShellSimulator\..\ExternalDependencies\Qt\lib" /LIBPATH:"D:\Capstone\firstclean - Copy\ShellSimulator\ShellSimulator\..\ExternalDependencies\lua\lib" /LIBPATH:"D:\Capstone\firstclean - Copy\ShellSimulator\ShellSimulator\..\ExternalDependencies\glew\lib" /LIBPATH:"D:\Capstone\firstclean - Copy\ShellSimulator\ShellSimulator\..\ExternalDependencies" /LIBPATH:"D:\Capstone\firstclean - Copy\ShellSimulator\ShellSimulator\..\ExternalDependencies\Qt\bin" /LIBPATH:"D:\Capstone\firstclean - Copy\ShellSimulator\ShellSimulator\..\ExternalDependencies\NeumontTools\lib" /LIBPATH:"C:\Program Files (x86)\AMD APP SDK\2.9\lib\x86" NeumontTools.lib opengl32.lib QtOpenGLd4.lib QtGuid4.lib QtCored4.lib glew32.lib lua5.1.lib lua51.lib OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Capstone\firstclean - Copy\ShellSimulator\ShellSimulator\Release\Engine.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Capstone\firstclean - Copy\ShellSimulator\ShellSimulator\Release\Engine.lib" /MACHINE:X86 /SAFESEH /DLL Release\Camera.obj
+         Release\GameObject.obj
+         Release\Geometry.obj
+         Release\GLWidget.obj
+         Release\PhysicsComponent.obj
+         Release\PhysicsEngine.obj
+         Release\PointCloud.obj
+         Release\Renderable.obj
+         Release\Renderer.obj
+            Creating library D:\Capstone\firstclean - Copy\ShellSimulator\ShellSimulator\Release\Engine.lib and object D:\Capstone\firstclean - Copy\ShellSimulator\ShellSimulator\Release\Engine.exp
+         Generating code
+     1>d:\capstone\firstclean - copy\shellsimulator\externaldependencies\engine\renderer.cpp(258): warning C4715: 'Renderer::addRenderable' : not all control paths return a value
+         Finished generating code
+         Engine.vcxproj -> D:\Capstone\firstclean - Copy\ShellSimulator\ShellSimulator\Release\Engine.dll
+     1>Done Building Project "D:\Capstone\firstclean - Copy\ShellSimulator\ExternalDependencies\Engine\Engine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.14
